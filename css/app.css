@@ -4,11 +4,9 @@
 	color: white;
 }
 
-#tab-bar-background{
-  background-color: #d7ecfa;
-}
-
 #box{
   background-color: white;
   width: 68%;
+  border: none;
+  text-align: left;
 }
