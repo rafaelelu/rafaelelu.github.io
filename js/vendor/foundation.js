@@ -4667,8 +4667,8 @@ var Abide = function (_Plugin) {
        * @event Abide#formvalid
        * @event Abide#forminvalid
        */
+        if(noError){ alert("Se validará el formulario y se actualizará la base de datos dentro de las próximas 24 horas.");}
       this.$element.trigger((noError ? 'formvalid' : 'forminvalid') + '.zf.abide', [this.$element]);
-
       return noError;
     }
 
